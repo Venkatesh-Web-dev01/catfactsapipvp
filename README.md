@@ -37,6 +37,8 @@ flowchart TD
     AIService -->|3. Return AI Insights / Explanation| UI
     UI -->|4. Render Visual Card & Diagram| User
 
+✨ Key FeaturesDynamic Fact Fetching: Asynchronously pulls facts from the public Cat Facts API.AI-Powered Insights: Uses LLMs to generate fun context, categorize facts (e.g., Behavior, Anatomy, History), and create AI summaries.Interactive UI: Dynamic DOM updating with clean CSS design and visual loading indicators.Automated Diagramming: Integrates Mermaid.js rendering directly within the interface for structured visual data.🛠️ Tech Stack & AI PlatformsLayerTechnology / ToolFrontendHTML5, CSS3, JavaScript (ES6+ / Async-Await)Data SourcePublic Cat Facts REST APIAI IntegrationOpenAI API (gpt-4o-mini) / Google Gemini API (gemini-1.5-flash)DiagrammingMermaid.js
+
 🚀 Features
 Random Cat Facts: Fetch fresh, interesting cat facts at the click of a button.
 
@@ -68,3 +70,11 @@ Simply double-click index.html to open it in any modern web browser, or serve it
 
 Bash
 npx serve .
+
+# AI Platform Configuration
+AI_PROVIDER=openai # Options: 'openai' | 'gemini'
+OPENAI_API_KEY=your_openai_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# API Endpoint Settings
+CAT_FACTS_API_URL=[https://catfact.ninja/fact](https://catfact.ninja/fact)
