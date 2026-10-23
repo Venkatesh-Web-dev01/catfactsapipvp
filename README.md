@@ -96,3 +96,14 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 # API Endpoint Settings
 CAT_FACTS_API_URL=[https://catfact.ninja/fact](https://catfact.ninja/fact)
+
+✨ Key Features
+⚡ Reactive UI Engine: Built with zero runtime frameworks for maximum performance, minimal bundle size, and sub-second load times.
+
+🤖 Dynamic Multi-Provider AI Fallback: Configurable support switching between OpenAI and Google Gemini APIs with contextual failure fallback routines.
+
+🏷️ Automated Fact Classification: Classifies raw unstructured facts into discrete taxonomies (e.g., Anatomy, Behavior, Domestication, History, Nutrition).
+
+📊 Real-time Diagram Generation: Leverages Mermaid.js integration to visually diagram facts, relational hierarchies, or historical timelines directly in the DOM.
+
+🔒 Secure API Key Management: Encapsulates credentials via environment configuration layers and runtime proxy readiness to prevent client-side key leakage.
