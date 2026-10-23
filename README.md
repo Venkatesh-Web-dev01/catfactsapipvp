@@ -37,6 +37,27 @@ flowchart TD
     AIService -->|3. Return AI Insights / Explanation| UI
     UI -->|4. Render Visual Card & Diagram| User
 
+                               ┌──────────────────────────┐
+                               │     Client Frontend      │
+                               │  (HTML5 / CSS3 / ES6+)   │
+                               └────────────┬─────────────┘
+                                            │
+                    1. Request Raw Fact     │     4. Render Fact, Metadata
+                    ───────────────────────>│     & Dynamic Visuals
+                                            │<──────────────────────
+                                            │
+                   ┌────────────────────────┴────────────────────────┐
+                   │                                                 │
+                   ▼                                                 ▼
+     ┌──────────────────────────┐                       ┌──────────────────────────┐
+     │   Cat Facts Public API   │                       │    AI Inference Layer    │
+     │  (catfact.ninja/fact)    │                       │  (OpenAI / Google Gemini)│
+     └────────────┬─────────────┘                       └────────────┬─────────────┘
+                  │                                                  ▲
+                  │ 2. Return Payload                                │ 3. Forward Prompt
+                  └──────────────────────────────────────────────────┘    & Raw Text Data
+
+
 ✨ Key FeaturesDynamic Fact Fetching: Asynchronously pulls facts from the public Cat Facts API.AI-Powered Insights: Uses LLMs to generate fun context, categorize facts (e.g., Behavior, Anatomy, History), and create AI summaries.Interactive UI: Dynamic DOM updating with clean CSS design and visual loading indicators.Automated Diagramming: Integrates Mermaid.js rendering directly within the interface for structured visual data.🛠️ Tech Stack & AI PlatformsLayerTechnology / ToolFrontendHTML5, CSS3, JavaScript (ES6+ / Async-Await)Data SourcePublic Cat Facts REST APIAI IntegrationOpenAI API (gpt-4o-mini) / Google Gemini API (gemini-1.5-flash)DiagrammingMermaid.js
 
 🚀 Features
