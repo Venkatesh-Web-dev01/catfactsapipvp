@@ -1,11 +1,8 @@
 🐱 Cat Facts API Project
-A lightweight frontend web application that fetches and displays random cat facts using asynchronous JavaScript and a public Cat Facts API.
+A lightweight frontend web application that fetches and displays random cat facts using asynchronous JavaScript and a public Cat Facts API
 
-# 🐱 AI-Powered Cat Facts Web App
-
-An advanced, responsive web application that fetches random cat facts, enriches them using AI language models (e.g., OpenAI GPT-4 / Google Gemini API), and provides real-time intelligent insights, summaries, and categorizations for every fact.
-
----
+🐱 Cat Facts AI — Intelligent Multi-Model Contextual Engine
+An enterprise-ready, asynchronous web application that fetches real-time feline data via public REST endpoints and dynamically enriches it with Large Language Models (LLMs). The application converts raw text facts into structured insights, category metadata, and automated visual diagrams rendered on the fly.
 
 ## 📌 Table of Contents
 - [Architecture & AI Workflow](#-architecture--ai-workflow)
