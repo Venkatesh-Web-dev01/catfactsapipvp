@@ -43,23 +43,6 @@ An enterprise-ready, asynchronous web application that fetches real-time feline 
 
 ---
 
-## 📐 Architecture & AI Workflow
-
-```mermaid
-flowchart TD
-    %% Nodes
-    User([👤 User])
-    UI[🖥️ Frontend UI\nHTML5 / CSS3 / JS]
-    CatAPI[🌐 Cat Facts Public API]
-    AIService[🤖 AI Platform\nOpenAI / Gemini API]
-
-    %% Interaction Flow
-    User -->|Click 'Get Fact'| UI
-    UI -->|1. Fetch Random Fact| CatAPI
-    CatAPI -->|Return Raw Fact Data| UI
-    UI -->|2. Send Prompt & Fact Data| AIService
-    AIService -->|3. Return AI Insights / Explanation| UI
-    UI -->|4. Render Visual Card & Diagram| User
 
                                ┌──────────────────────────┐
                                │     Client Frontend      │
