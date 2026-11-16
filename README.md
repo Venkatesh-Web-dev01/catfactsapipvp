@@ -1,5 +1,5 @@
 🐱 Cat Facts API Project
-A lightweight frontend web application that fetches and displays random cat facts using asynchronous JavaScript and a public Cat Facts API
+A lightweight frontend web application that fetches and displays random cat facts using asynchronous JavaScript and a public Cat Facts API. Actually this is my mini project.
 
 <div align="center">
 
