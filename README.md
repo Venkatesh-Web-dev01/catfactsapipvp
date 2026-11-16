@@ -1,6 +1,33 @@
 🐱 Cat Facts API Project
 A lightweight frontend web application that fetches and displays random cat facts using asynchronous JavaScript and a public Cat Facts API
 
+<div align="center">
+
+  # 🐱 Cat Facts AI
+  ### Intelligent Multi-Model Contextual Engine
+
+  <p>
+    An enterprise-ready, asynchronous web application that fetches real-time feline data via public REST endpoints and dynamically enriches it with Large Language Models (LLMs).
+  </p>
+
+  <!-- Tech Stack Badges -->
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+    <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+  </p>
+
+  <p>
+    <a href="#-architecture--ai-workflow">Architecture</a> •
+    <a href="#-key-features">Key Features</a> •
+    <a href="#-getting-started">Getting Started</a> •
+    <a href="#-project-structure">Project Structure</a>
+  </p>
+
+</div>
+
 🐱 Cat Facts AI — Intelligent Multi-Model Contextual Engine
 An enterprise-ready, asynchronous web application that fetches real-time feline data via public REST endpoints and dynamically enriches it with Large Language Models (LLMs). The application converts raw text facts into structured insights, category metadata, and automated visual diagrams rendered on the fly.
 
